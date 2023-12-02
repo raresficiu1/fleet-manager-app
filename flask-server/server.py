@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 #Members API Route
-#asdada 
+
 @app.route("/members")
 def members():
     return{"members":['Member1','member2']}
