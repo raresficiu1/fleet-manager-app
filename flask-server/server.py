@@ -9,7 +9,7 @@ app = Flask(__name__)
 def members():
     return{"members":['Member1','member2']}
 
-#try
+#jk test
 if __name__ == "__main__":
     app.run(debug=True)
     CORS(app)
